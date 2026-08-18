@@ -1,0 +1,69 @@
+# Monorepo / Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+build/
+dist/
+out/
+.next/
+*.tsbuildinfo
+coverage/
+
+# Next.js / React
+apps/web/public/sw.js
+apps/web/public/workbox-*.js
+apps/web/public/fallback-*.js
+
+# Tauri / Rust
+src-tauri/target/
+
+# Cache & Logs
+.cache/
+.tmp/
+.temp/
+*.tmp
+*.bak
+*.orig
+*.swp
+*.swo
+logs/
+*.log
+
+# Env
+.env
+.env.*
+!.env.example
+
+# Supabase
+supabase/.temp/
+supabase/.branch/
+
+# IDE
+.vscode/
+.idea/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# AI Artifacts
+.claude/
+.claude-code/
+.cursor/
+.cursor-cache/
+.cursor-tmp/
+.gemini/
+.antigravity/
+.aider/
+.aider*
+.copilot/
+.codeium/
+.roo/
+.roocode/
+.windsurf/
+.cline/
+.continue/
+.history/
